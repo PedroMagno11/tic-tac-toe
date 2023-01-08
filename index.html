@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <h1>Jogo da Velha</h1>
@@ -16,7 +16,8 @@
     <label for="player2">O</label>
     <input type="text" id="player2" placeholder="Nome do Jogador 2">
 
-    <button id="start">Começar!</button>
+    <button id="start" type="button">Começar!</button>
+
     <h2>Vez de : <span id="turnPlayer"></span></h2>
     
     <section id="gameBoard">
